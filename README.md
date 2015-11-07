@@ -1,4 +1,4 @@
-My personal website: lindseymharding.com
+My personal website: [lindseymharding.com](http://lindseymharding.com/)
 
 ---
 
