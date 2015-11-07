@@ -1,0 +1,37 @@
+# Site settings
+title:       Linz
+email:       lharding@uga.edu
+author:      Lindsey Harding
+description: "Linz is awesome!"
+baseurl:     ""
+url:         "http://www.lindseymharding.com"
+date_format: "%b %-d, %Y"
+
+# Google services
+google_analytics:
+
+# Social icons
+github_username: linzster
+twitter_username: linzharding
+facebook_username: linzster
+
+# Site navigation
+nav:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Academic Projects
+  url: /projects/
+- text: Publications
+  url: /publications/
+- text: Digital Initiatives
+  url: /digital/
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+sass:
+  compressed: true

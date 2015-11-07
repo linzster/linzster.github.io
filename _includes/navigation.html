@@ -1,0 +1,8 @@
+<ul class="nav navbar-nav navbar-right">
+  {% for link in site.nav %}
+    <li {% if link.url == page.url %}class="active"{% endif %}>
+      <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+    </li>  
+  {% endfor %}
+</ul>
+<div class="clearfix"></div>

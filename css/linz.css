@@ -1,0 +1,159 @@
+/*
+*
+*  Custom stylez
+*
+*/
+
+
+/*
+*  Big, global stuff
+*/
+
+body {
+    background-image: url('/images/bg.png');
+    height: 100%;
+    color: #333;
+    font-weight: 300;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    margin: 15px;
+    padding: 0 15px;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+@media (min-width: 600px) {
+    .main {
+        margin: 30px auto;
+    }
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0074D9;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+
+
+/*
+*  Typography
+*/
+
+.bold {
+    font-weight: 900;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.caps {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+
+/*
+*  Top navigation
+*/
+
+.nav {
+    padding: 8px;
+}
+
+.nav a {
+    color: #666;
+    border-radius: 2px;
+}
+
+.nav .active a {
+    margin-bottom: 8px;
+    background-color: #eee;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        margin-bottom: 0;
+        margin-left: 4px;
+        padding: 5px 10px;
+    }
+}
+
+
+/*
+*  Content
+*/
+
+.page-headline {
+    margin: 30px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.page-headline i {
+    margin-left: 10px;
+    font-size: 75%;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #eee;
+}
+
+.social-icons a {
+    padding: 0 4px;
+    color: #333;
+    font-size: 20px;
+}
+
+.thumb-me {
+    margin: 0 0 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*
+*  Footer
+*/
+
+footer {
+    padding: 10px 0;
+    font-size: 11px;
+}
